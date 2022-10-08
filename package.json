@@ -36,7 +36,11 @@
   "lint-staged": {
     "*.js": "eslint --cache --fix"
   },
-  "dependencies": {
-    "npx": "^10.2.2"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wshuhua/stars"
+  },
+  "bugs": {
+    "url": "https://github.com/wshuhua/stars/issues"
   }
 }
