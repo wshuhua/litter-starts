@@ -29,10 +29,9 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
-      - name: install
-        run:
-          npm install
-
       - name: run ci
-        run:
-          npm run ci
+        run: |
+          npm install
+          npm run lint
+          npm run test
+          npm run build
