@@ -1,4 +1,4 @@
-import { createSVGElement, mount, applyAttribute } from '../utils';
+import { createSVGElement, mount, applyAttribute } from './utils';
 
 export function shape(type, context, attribute) {
   const { group } = context;

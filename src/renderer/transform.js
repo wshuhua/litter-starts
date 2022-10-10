@@ -1,4 +1,4 @@
-import { applyTransform, createSVGElement, mount } from '../utils';
+import { applyTransform, createSVGElement, mount } from './utils';
 
 // type: rotate | tranlate | scale
 function transform(type, context, ...params) {
