@@ -23,6 +23,7 @@ export function createLinear({
       ceil: (x) => ceil(x, step),
     });
   };
+  return scale;
 }
 
 export function interpolateNumber(t, start, stop) {
